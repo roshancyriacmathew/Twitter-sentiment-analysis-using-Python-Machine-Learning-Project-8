@@ -110,7 +110,7 @@ text_df = text_df.drop_duplicates('text')
 stemmer = PorterStemmer()
 def stemming(data):
     text = [stemmer.stem(word) for word in data]
-    return data
+    return text
 
 
 # In[14]:
